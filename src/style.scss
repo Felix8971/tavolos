@@ -1,5 +1,5 @@
 html {
-    background: #f5f7f8;
+    background: black;
     font-family: 'Raleway', sans-serif;
     padding: 0;
     .title{
@@ -16,10 +16,8 @@ html {
 }
 
 
-
-
-//navbar
-nav {
+//navbar 1
+.nav-bar-one {
     background-color: black;
     padding: 1em;
     overflow: hidden;
@@ -70,10 +68,10 @@ nav {
 }
 
 
-$nav-break-point: 870px;
+$nav-break-point: 880px;
 //Breakpoint to define when the "hamburger" appears
  @media (min-width: $nav-break-point) {
-  nav {
+  .nav-bar-one {
     .nav-narrow {
       display: none;
     }
@@ -81,12 +79,107 @@ $nav-break-point: 870px;
 }
 
 @media (max-width: $nav-break-point) {
-    nav {
+    .nav-bar-one {
         .nav-wide {
             display: none;
         }
         .nav-narrow {
             display: grid;
+        }
+    }
+}
+
+
+
+//navbar 2
+.nav-bar-two {
+    background-color: white;
+    padding: 1em;
+    overflow: hidden;
+
+    i {
+      cursor: pointer;
+      color: black;
+    }
+
+    .nav-wide {
+
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: auto auto;//defines the number of columns in the grid layout,
+       
+        .menu{
+            align-content: center;
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            .link {
+                color: black;
+                text-decoration: underline;
+                padding: 0 0.3em;
+            }
+            .legend{
+                color: black;
+                font-weight: bold;
+                text-decoration:none;
+            }
+        }
+        .search{
+            align-content: center;
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: flex-start;
+            .link {
+                color: black;
+                text-decoration: underline;
+                padding: 0 0.3em;
+            }
+            .legend{
+                color: black;
+                font-weight: bold;
+                text-decoration:none;
+            }
+        }
+    }
+    
+   
+}
+
+
+@media (max-width: $nav-break-point) {
+    .nav-bar-two {
+        .nav-wide {
+            grid-template-columns:auto;
+            // .menu{
+            //     grid-template-columns:auto
+            // }
+            .search{
+                margin-top: 10px;
+            }
+     
+        }
+     
+       
+    }
+}
+
+
+@media (max-width: 570px) {
+    .nav-bar-two {
+        .nav-wide {
+            grid-template-columns:auto;
+            justify-content: left;
+            .menu{
+                grid-template-columns:auto;
+                .link{
+                    padding:0;
+                }
+                .legend{
+                    margin-bottom: 5px;
+                }
+            }
+            .search{
+                margin-top: 10px;
+            }
         }
     }
 }

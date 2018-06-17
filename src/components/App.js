@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../style.scss';
-import NavBar from './NavBar';
+import NavBarOne from './NavBarOne';
+import NavBarTwo from './NavBarTwo';
 //import Button from './Button';
 
 class App extends Component {
@@ -13,7 +14,8 @@ class App extends Component {
    
     return (
       <div>
-        <NavBar/>
+        <NavBarOne/>
+        <NavBarTwo/>
         <h1 className="title">Dine in the dark</h1>
       </div>
     );

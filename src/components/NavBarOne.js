@@ -1,6 +1,6 @@
 import React from 'react';
 
-class NavBar extends React.Component {
+class NavBarOne extends React.Component {
   constructor(props) {
     super();
     this.burgerToggle = this.burgerToggle.bind(this);
@@ -13,7 +13,7 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <nav>
+      <nav className='nav-bar-one'>
         <div className='nav-wide'>
           <img className='grid-item logo' src={'./images/logo.png'} />  
           
@@ -41,7 +41,7 @@ class NavBar extends React.Component {
             <a href="#" onClick={this.burgerToggle}>Promotion</a>
             <a href="#" onClick={this.burgerToggle}>All Restaurants</a>
             <div className='button-set'>
-              <a href="#">Neighbourhoods</a>
+              <a href="#">My Tavolos</a>
               <a href="#"><i className="fab fa-facebook"></i></a>
               <a href="#"><i className="fab fa-twitter"></i></a>
               <a href="#"><i className="fab fa-instagram"></i></a>
@@ -53,6 +53,6 @@ class NavBar extends React.Component {
   }
 }
 
-export default NavBar;
+export default NavBarOne;
 
 
