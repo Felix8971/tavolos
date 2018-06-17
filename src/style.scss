@@ -2,10 +2,7 @@ html {
     background: black;
     font-family: 'Raleway', sans-serif;
     padding: 0;
-    .title{
-        text-align:center;
-        margin:30px;
-    }
+   
 }
 
 
@@ -13,6 +10,40 @@ html {
 * {
     margin: 0;
     padding: 0;
+}
+
+
+.root-container{
+    display: grid;
+    justify-content: normal;
+    grid-template-columns: auto;
+    overflow: hidden;
+    
+    .head-band-group{
+        position: relative;
+        .head-band{
+            width:100%;
+            
+        }
+        .title-group{
+            position:absolute;
+            top: 40%;
+            color:white;
+            display:grid;
+            justify-items: baseline;
+            margin-left: 7%;
+            text-shadow: 1px 1px 1px black;
+            h1{
+              font-size: 4vw;
+              
+            }
+            h2{
+              font-size: 3vw;
+              
+            }
+        }
+    }
+    
 }
 
 

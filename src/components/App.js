@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import '../style.scss';
 import NavBarOne from './NavBarOne';
 import NavBarTwo from './NavBarTwo';
+import HeadBand from './HeadBand';
+
 //import Button from './Button';
 
 class App extends Component {
@@ -13,10 +15,10 @@ class App extends Component {
   render() {
    
     return (
-      <div>
+      <div className='root-container'>
         <NavBarOne/>
         <NavBarTwo/>
-        <h1 className="title">Dine in the dark</h1>
+        <HeadBand />
       </div>
     );
   }
