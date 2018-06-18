@@ -3,6 +3,7 @@ import '../style.scss';
 import NavBarOne from './NavBarOne';
 import NavBarTwo from './NavBarTwo';
 import HeadBand from './HeadBand';
+import Content from './Content';
 
 //import Button from './Button';
 
@@ -18,7 +19,8 @@ class App extends Component {
       <div className='root-container'>
         <NavBarOne/>
         <NavBarTwo/>
-        <HeadBand />
+        <HeadBand/>
+        <Content/>
       </div>
     );
   }

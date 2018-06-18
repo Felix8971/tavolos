@@ -1,29 +1,24 @@
 html {
-    background: black;
+    background: rgb(245, 18, 18);
     font-family: 'Raleway', sans-serif;
     padding: 0;
-   
 }
-
-
 
 * {
     margin: 0;
     padding: 0;
 }
 
-
 .root-container{
     display: grid;
     justify-content: normal;
     grid-template-columns: auto;
     overflow: hidden;
-    
-    .head-band-group{
+    font-size: 0.7em;
+    .head-band-group {
         position: relative;
         .head-band{
             width:100%;
-            
         }
         .title-group{
             position:absolute;
@@ -32,26 +27,77 @@ html {
             display:grid;
             justify-items: baseline;
             margin-left: 7%;
-            text-shadow: 1px 1px 1px black;
+            text-shadow: 1px 1px 1px #898989;
             h1{
-              font-size: 4vw;
-              
+              font-size: 2em;
             }
             h2{
-              font-size: 3vw;
-              
+              font-size: 1em;
             }
         }
     }
-    
+
+    .content{
+        background-color: white;
+        display: grid;
+        grid-template-columns: 45% auto;
+        justify-content: space-evenly;
+        padding:20px;
+        .description{
+          text-align: justify;
+          h2 {
+            font-weight: normal;
+            margin-bottom: 20px;
+          }
+          h3 {
+            margin-bottom: 15px;
+            font-style: oblique;
+            font-size: 1em;
+          }
+          p {
+            font-style: oblique;
+          } 
+        }
+
+        .purchase{
+            font-weight: bold;
+            margin-top:20px;
+        }
+
+    }
 }
 
+@media (max-width: 740px) {
+    .root-container {
+        .content {
+            grid-template-columns: none;
+        }
+    }
+}
+
+@media (min-width: 740px) {
+    .root-container {
+        .head-band-group{
+            .title-group{
+                h1{
+                    font-size: 3em;
+                }
+                h2{
+                   font-size: 2em;
+                }
+            }
+        }
+    }
+}
 
 //navbar 1
 .nav-bar-one {
     background-color: black;
-    padding: 1em;
+    padding: 0.8em;
     overflow: hidden;
+    .social-network {    
+      display: flex;
+    }
     i {
       cursor: pointer;
       color: #FFF;
@@ -89,22 +135,30 @@ html {
 			a {
 				text-decoration: none;
 				display: block;
-                padding: 0.5em 0;
+                padding: 0.4em 0;
                 &:hover{
-                    text-decoration:underline;
+                    text-decoration: underline;
                 }
-			}
+            }
+            .button-set{
+                display:flex;
+                justify-content: space-between;
+                a {
+                    margin-right: 20px;
+                }
+            }
 		}
     }
 }
 
 
-$nav-break-point: 880px;
+$nav-break-point: 740px;
 //Breakpoint to define when the "hamburger" appears
  @media (min-width: $nav-break-point) {
   .nav-bar-one {
     .nav-narrow {
       display: none;
+      
     }
   }
 }
@@ -116,6 +170,7 @@ $nav-break-point: 880px;
         }
         .nav-narrow {
             display: grid;
+            .fa-bars { margin-top: 6px; }
         }
     }
 }
@@ -125,7 +180,7 @@ $nav-break-point: 880px;
 //navbar 2
 .nav-bar-two {
     background-color: white;
-    padding: 1em;
+    padding: 1.8em;
     overflow: hidden;
 
     i {
@@ -176,25 +231,24 @@ $nav-break-point: 880px;
 }
 
 
-@media (max-width: $nav-break-point) {
+@media (max-width: 700px) {
     .nav-bar-two {
+        padding: 0.8em;
         .nav-wide {
             grid-template-columns:auto;
+            justify-content: flex-start;
             // .menu{
             //     grid-template-columns:auto
             // }
             .search{
                 margin-top: 10px;
             }
-     
         }
-     
-       
     }
 }
 
 
-@media (max-width: 570px) {
+@media (max-width: 450px) {
     .nav-bar-two {
         .nav-wide {
             grid-template-columns:auto;
@@ -202,7 +256,7 @@ $nav-break-point: 880px;
             .menu{
                 grid-template-columns:auto;
                 .link{
-                    padding:0;
+                    padding: 0.4em 0;
                 }
                 .legend{
                     margin-bottom: 5px;

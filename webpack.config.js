@@ -1,9 +1,10 @@
 const path = require('path');
+var webpack = require('webpack');
 
 const config = {
   entry: './src/index.js',
   output: {
-    filename: '[name].js',
+    filename: 'index.bundle.js',
     path: path.resolve(__dirname, 'build'),
     publicPath: 'build',
   },
@@ -67,6 +68,7 @@ const config = {
       },
     ],
   },
+   
 };
 
 module.exports = config;
