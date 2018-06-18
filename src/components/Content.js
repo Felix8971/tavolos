@@ -19,8 +19,22 @@ class Content extends React.Component {
           </p>
         </div>
         <div className='purchase'>
-          <i className="fas fa-cart-plus fa-2x"></i>
-          My basket (0) / Checkout
+          <div className="item1">
+            <i className="fas fa-cart-plus fa-2x"></i>
+            <span className="basket-title">My basket (0) / Checkout</span>
+          </div>
+          <div className="select-person"> 
+            <div className='select-person-btn'>
+              <div className='nb-person'>1 Person</div>
+              <div className="arrow-down"></div>
+            </div>
+            <div className='select-person-price'>
+              1,400 THB
+            </div>
+          </div>
+          <div className="btn">
+            Add to Basket
+          </div>          
         </div>
       </div>
     )

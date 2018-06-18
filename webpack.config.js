@@ -1,10 +1,10 @@
 const path = require('path');
 var webpack = require('webpack');
-
+//https://www.alsacreations.com/tuto/lire/1754-debuter-avec-webpack.html
 const config = {
   entry: './src/index.js',
   output: {
-    filename: 'index.bundle.js',
+    filename: 'bundle.js',
     path: path.resolve(__dirname, 'build'),
     publicPath: 'build',
   },

@@ -1,5 +1,5 @@
 html {
-    background: rgb(245, 18, 18);
+    background: white;
     font-family: 'Raleway', sans-serif;
     padding: 0;
 }
@@ -15,6 +15,15 @@ html {
     grid-template-columns: auto;
     overflow: hidden;
     font-size: 0.7em;
+
+    .btn{
+        background-color: black;
+        color:white;
+        width:162px;
+        padding:10px;
+        text-align: center;
+        cursor: pointer;
+    }
     .head-band-group {
         position: relative;
         .head-band{
@@ -61,7 +70,46 @@ html {
 
         .purchase{
             font-weight: bold;
-            margin-top:20px;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            //background-color: #2196F3;
+            padding: 10px;
+            height: 109px;
+            //width: 242px;
+            
+            .basket-title{
+                margin-left: 5px;
+                font-style: oblique;
+            }
+            .select-person{
+                display:flex;
+                .select-person-btn{
+                    border: 0.5px solid rgb(199, 199, 199);
+                    padding: 10px 15px 10px 15px;
+                    .arrow-down {
+                        width: 0px;
+                        height: 0px;
+                        border-left: 7px solid transparent;
+                        border-right: 7px solid transparent;
+                        border-top: 11px solid black;
+                        display: inline-block;
+                        margin-left: 8px;
+                        margin-top:2px;
+                    }
+                    .nb-person{
+                        display: inline-block;
+                    }
+                }
+                .select-person-price{
+                    border: 0.5px solid  rgb(199, 199, 199);
+                    padding: 10px 15px 10px 15px;
+                    margin-left:-1px;
+                }
+            }
+           
         }
 
     }
