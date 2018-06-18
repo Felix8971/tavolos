@@ -14,16 +14,29 @@ html {
     justify-content: normal;
     grid-template-columns: auto;
     overflow: hidden;
-    font-size: 0.7em;
+    font-size: 0.9em;
 
     .btn{
         background-color: black;
         color:white;
-        width:162px;
+        width:246px;
         padding:10px;
         text-align: center;
         cursor: pointer;
     }
+  
+
+    .arrow-down {
+        width: 0px;
+        height: 0px;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-top: 11px solid black;
+        display: inline-block;
+        margin-left: 8px;
+        margin-top:2px;
+    }    
+
     .head-band-group {
         position: relative;
         .head-band{
@@ -65,54 +78,63 @@ html {
           }
           p {
             font-style: oblique;
+          }
+          .voucher{
+            width: 228px;  
+            margin-top: 30px;
+            font-weight: bold;
+            border-bottom: 1px solid black;
+            cursor: pointer;
           } 
+          .offer{
+            background-color: blue;
+            width:400px;
+            height:200px;
+            margin-bottom: 20px;
+          }
         }
 
         .purchase{
-            font-weight: bold;
-            margin-top: 20px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
-            //background-color: #2196F3;
+            font-weight: bold;
+            margin-top: 20px;
             padding: 10px;
-            height: 109px;
-            //width: 242px;
-            
+            height: 133px;
             .basket-title{
                 margin-left: 5px;
                 font-style: oblique;
             }
+           
             .select-person{
                 display:flex;
-                .select-person-btn{
+                .select-person-btn,  .select-person-price {
                     border: 0.5px solid rgb(199, 199, 199);
-                    padding: 10px 15px 10px 15px;
-                    .arrow-down {
-                        width: 0px;
-                        height: 0px;
-                        border-left: 7px solid transparent;
-                        border-right: 7px solid transparent;
-                        border-top: 11px solid black;
-                        display: inline-block;
-                        margin-left: 8px;
-                        margin-top:2px;
-                    }
+                    padding: 15px 28px 15px 28px;
+                }
+                .select-person-btn {
+                    cursor: pointer;
                     .nb-person{
                         display: inline-block;
                     }
                 }
                 .select-person-price{
-                    border: 0.5px solid  rgb(199, 199, 199);
-                    padding: 10px 15px 10px 15px;
                     margin-left:-1px;
                 }
             }
-           
+        }
+
+        .right-bloc{
+            visibility: hidden;
+            width:286px;
         }
 
     }
+
+
+
 }
 
 @media (max-width: 740px) {

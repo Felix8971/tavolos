@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Content extends React.Component {
+class MainContent extends React.Component {
   constructor(props) {
     super();
   }
@@ -17,9 +17,10 @@ class Content extends React.Component {
             Switch off the lights and turn on your senses at “Dine in the Dark”. Available from 18.30 hours, Monday – Saturday (last orders 21.30 hours).<br/><br/>
             The Dine in the Dark experience is only recommended for children 12 years of age or older and accompanied by parents.
           </p>
+          <div className='voucher'>Voucher Term and Conditions<div className="arrow-down"></div></div>
         </div>
         <div className='purchase'>
-          <div className="item1">
+          <div> 
             <i className="fas fa-cart-plus fa-2x"></i>
             <span className="basket-title">My basket (0) / Checkout</span>
           </div>
@@ -41,6 +42,6 @@ class Content extends React.Component {
   }
 }
 
-export default Content;
+export default MainContent;
 
 

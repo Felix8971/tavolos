@@ -3,7 +3,9 @@ import '../style.scss';
 import NavBarOne from './NavBarOne';
 import NavBarTwo from './NavBarTwo';
 import HeadBand from './HeadBand';
-import Content from './Content';
+import MainContent from './MainContent';
+import OtherContent from './OtherContent';
+import FooterOne from './FooterOne';
 
 //import Button from './Button';
 
@@ -20,7 +22,10 @@ class App extends Component {
         <NavBarOne/>
         <NavBarTwo/>
         <HeadBand/>
-        <Content/>
+        <MainContent/>
+        <OtherContent/>
+        <FooterOne/>
+       
       </div>
     );
   }
