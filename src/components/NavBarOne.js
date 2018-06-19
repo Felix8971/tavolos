@@ -1,8 +1,6 @@
 import React from 'react';
 import Bars from '../../public/images/bars.svg';
-import Facebook from '../../public/images/facebook.svg';
-import Twitter from '../../public/images/twitter.svg';
-import Instagram from '../../public/images/instagram.svg';
+import SocialNetworks from './SocialNetworks';
 
 class NavBarOne extends React.Component {
   constructor(props) {
@@ -16,12 +14,6 @@ class NavBarOne extends React.Component {
   }
  
   render() {
-
-    const socialNetworks = <div className='social-network'>
-      <a href="#"><Facebook className="icon"/></a>
-      <a href="#"><Twitter className="icon"/></a>
-      <a href="#"><Instagram className="icon"/></a>
-    </div>
     
     const mainLinks = <div>
       <a href="#" onClick={this.burgerToggle}>Neighbourhoods</a>
@@ -29,27 +21,28 @@ class NavBarOne extends React.Component {
       <a href="#" onClick={this.burgerToggle}>Promotion</a>
       <a href="#" onClick={this.burgerToggle}>All Restaurants</a>
     </div>
+    const logo = <img className='logo' src={'./images/logo.png'} alt="Tavalos logo"/>  
 
     return (
       <nav className='nav-bar-one'>
         <div className='nav-wide'>
-          <img className='logo' src={'./images/logo.png'} alt="Tavalos logo"/>  
+          {logo}
           <div className="menu">   
             {mainLinks}
           </div>
           <div className='button-set'>
             <a href="#" onClick={this.burgerToggle}>My Tavolos</a>
-            {socialNetworks}
+            <SocialNetworks/>
           </div>
         </div>
         <div className="nav-narrow"> 
-          <img className='logo' src={'./images/logo.png'} alt="Tavalos logo"/>  
+          {logo}
           <Bars className="bars" onClick={this.burgerToggle}/>
           <div className="narrow-links">
             {mainLinks}
             <div className='button-set'>
               <a href="#" onClick={this.burgerToggle}>My Tavolos</a>
-              {socialNetworks}
+              <SocialNetworks/>
             </div>
           </div>
         </div>
@@ -57,7 +50,6 @@ class NavBarOne extends React.Component {
     )
   }
 }
-
 
 export default NavBarOne;
 

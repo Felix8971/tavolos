@@ -1,17 +1,15 @@
 $nav-break-point: 815px;
-
-html {
-    background: white;
-    font-family: 'Raleway', sans-serif;
-    padding: 0;
-}
-
 * {
     margin: 0;
     padding: 0;
 }
 
-.root-container{
+html {
+    background: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.root-container {
     display: grid;
     justify-content: normal;
     grid-template-columns: auto;
@@ -218,7 +216,7 @@ html {
         .head-band-group{
             .title-group{
                 h1{
-                    font-size: 3em;
+                   font-size: 3em;
                 }
                 h2{
                    font-size: 2em;
@@ -316,6 +314,9 @@ html {
         .nav-narrow {
             display: grid;
             .bars { margin-top: 6px; }
+            .button-set{
+                flex-direction:column;
+            }
         }
     }
 }
