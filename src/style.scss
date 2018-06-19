@@ -195,9 +195,34 @@ html {
         flex-direction: row;
         justify-content: space-evenly;
         padding: 10px;
-       
+        font-size: 0.8em;
         .item{
             margin:5px;
+            display: flex;
+            flex-direction: column;
+            a {
+                color: white;
+                
+                text-decoration:none;
+                &:hover{
+                    text-decoration:underline;
+                }
+            }
+            button{
+                background-color: #4a4a4a;
+                color:white;
+                border:none;
+                padding:8px;
+                cursor: pointer;
+                margin:8px 5px 0 5px;
+                font-size: 0.9em;
+            }
+            h3, a{
+                margin: 5px;
+            }
+            .logo{
+                width:80px;
+            }
         }
     }    
 
