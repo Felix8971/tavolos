@@ -11,6 +11,7 @@ class OtherContent extends React.Component {
     const data = [
       {
         image:'did.png',
+        alt:'Dine in the dark logo',
         title:'Dine in the Dark for 1-6 people',
         voucher:'Dine int the Dark for 1-6 people (food only)',
         price:'1,400 THB',
@@ -18,6 +19,7 @@ class OtherContent extends React.Component {
       },
       {
         image:'wineGlasses.png',
+        alt:'3 glasses of wine',
         title:'Dine in the Dark Wine Pairings',
         voucher:'Wine pairings (per person)',
         price:'2,505 THB',
@@ -25,6 +27,7 @@ class OtherContent extends React.Component {
       },
       {
         image:'veuveClicquot.png',
+        alt:'Veuve clicquot wine bottle',
         title:'Veuve Clicquot',
         voucher:'Wine pairings (per person)',
         price:'4,900 THB',

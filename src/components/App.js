@@ -6,8 +6,7 @@ import HeadBand from './HeadBand';
 import MainContent from './MainContent';
 import OtherContent from './OtherContent';
 import FooterOne from './FooterOne';
-
-//import Button from './Button';
+import FooterTwo from './FooterTwo';
 
 class App extends Component {
   constructor(props) {
@@ -19,13 +18,22 @@ class App extends Component {
    
     return (
       <div className='root-container'>
-        <NavBarOne/>
-        <NavBarTwo/>
+        <header>
+          <NavBarOne/>
+          <NavBarTwo/>
+        </header>
+
         <HeadBand/>
         <MainContent/>
-        <OtherContent/>
-        <FooterOne/> 
-       
+
+        <aside>
+          <OtherContent/>
+        </aside>
+
+        <footer>
+          <FooterOne/> 
+          <FooterTwo/> 
+        </footer>
       </div>
     );
   }

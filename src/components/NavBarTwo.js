@@ -10,13 +10,13 @@ class NavBarTwo extends React.Component {
       <nav className='nav-bar-two'>
         <div className='nav-wide'>
           
-          <div className="menu">   
-            <div className='legend' href="#">Bangkok / </div>
-            <a className='link' href="#">Chinese New Year</a>
-            <a className='link' href="#">Date Night</a>
-            <a className='link' href="#">Group Dinner</a>
-            <a className='link' href="#">Buisness Meals</a>
-          </div>
+          <ul className="menu">   
+            <li><div className='legend' href="#">Bangkok / </div></li>
+            <li><a className='link' href="#">Chinese New Year</a></li>
+            <li><a className='link' href="#">Date Night</a></li>
+            <li><a className='link' href="#">Group Dinner</a></li>
+            <li><a className='link' href="#">Buisness Meals</a></li>
+          </ul>
 
           <div className='search'>
             <span className='legend'>Search:</span>

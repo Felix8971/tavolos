@@ -4,15 +4,17 @@ class Offer extends React.Component {
   
   render() {
 
+    const props = this.props.data;
+
     return (
       <div className='offer'>
         <div className='image'>
-          <img className='vignette' src={'./images/' + this.props.data.image} />  
+          <img className='vignette' src={'./images/' + props.image} alt={ props.alt}/>  
         </div>
         <div className='text'>
-          <h2 className='title'>{this.props.data.title}</h2>
-          <p><span>Voucher: </span>{this.props.data.voucher}</p>
-          <p><span>Price: </span>{this.props.data.price}</p>
+          <h2 className='title'>{props.title}</h2>
+          <p><span>Voucher: </span>{props.voucher}</p>
+          <p><span>Price: </span>{props.price}</p>
           <div className="btn">
             Find out More
           </div>         

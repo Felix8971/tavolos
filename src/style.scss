@@ -87,7 +87,6 @@ html {
             border-bottom: 1px solid black;
             cursor: pointer;
           } 
-        
         }
 
         .offer{
@@ -121,7 +120,7 @@ html {
                     font-weight: bold;
                 }
             }
-          }
+        }
 
         .right-bloc{
             visibility: hidden;
@@ -163,12 +162,46 @@ html {
                 }
             }
         }
-
-
-
     }
 
+    .footer-one{
+        background-color: #4a4a4a;
+        color:white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 10px;
+        input[type='text'] {
+            height:28px;
+            text-align: center;
+        }
+        input[type='submit'] {
+            background: rgb(255, 115, 0);
+            color:white;
+            font-size: 0.8em;
+            border: none;
+            padding: 8px;
+            cursor: pointer;
+            margin-left: 7px;
+            width: 38px;
+        }
+        .item{
+            margin:5px;
+        }
+    }
 
+    .footer-two{
+        background-color: black;
+        color:white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 10px;
+       
+        .item{
+            margin:5px;
+        }
+    }    
 
 }
 
@@ -224,9 +257,11 @@ html {
             text-decoration:underline;
         }
     }
+
     .logo {
         width: 145px;
     }
+
     .nav-wide {
         display: grid;
         justify-content: space-evenly;
@@ -264,14 +299,11 @@ html {
     }
 }
 
-
-
 //Breakpoint to define when the "hamburger" appears
  @media (min-width: $nav-break-point) {
   .nav-bar-one {
     .nav-narrow {
       display: none;
-      
     }
   }
 }
@@ -288,11 +320,10 @@ html {
     }
 }
 
-
 //navbar 2
 .nav-bar-two {
     background-color: white;
-    padding: 1.8em;
+    padding: 1em;
     overflow: hidden;
 
     i {
@@ -301,7 +332,6 @@ html {
     }
 
     .nav-wide {
-
         display: grid;
         justify-content: space-evenly;
         grid-template-columns: auto auto;//defines the number of columns in the grid layout,
@@ -310,6 +340,7 @@ html {
             align-content: center;
             display: grid;
             grid-template-columns: auto auto auto auto auto;
+            list-style-type: none;
             .link {
                 color: black;
                 text-decoration: underline;
@@ -338,8 +369,6 @@ html {
             }
         }
     }
-    
-   
 }
 
 
@@ -349,9 +378,6 @@ html {
         .nav-wide {
             grid-template-columns:auto;
             justify-content: flex-start;
-            // .menu{
-            //     grid-template-columns:auto
-            // }
             .search{
                 margin-top: 10px;
             }
@@ -366,6 +392,7 @@ html {
             grid-template-columns:auto;
             justify-content: left;
             .menu{
+                
                 grid-template-columns:auto;
                 .link{
                     padding: 0.4em 0;
@@ -385,5 +412,12 @@ html {
         .btn{
             width:120px;
         }
+    }
+}
+
+
+@media (max-width: 550px) {
+    .footer-one{
+        flex-direction: column!important;
     }
 }

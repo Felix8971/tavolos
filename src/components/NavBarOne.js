@@ -33,7 +33,7 @@ class NavBarOne extends React.Component {
     return (
       <nav className='nav-bar-one'>
         <div className='nav-wide'>
-          <img className='logo' src={'./images/logo.png'} />  
+          <img className='logo' src={'./images/logo.png'} alt="Tavalos logo"/>  
           <div className="menu">   
             {mainLinks}
           </div>
@@ -43,7 +43,7 @@ class NavBarOne extends React.Component {
           </div>
         </div>
         <div className="nav-narrow"> 
-          <img className='logo' src={'./images/logo.png'} />  
+          <img className='logo' src={'./images/logo.png'} alt="Tavalos logo"/>  
           <Bars className="bars" onClick={this.burgerToggle}/>
           <div className="narrow-links">
             {mainLinks}

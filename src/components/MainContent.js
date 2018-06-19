@@ -9,7 +9,7 @@ class MainContent extends React.Component {
   render() {
     return (
       <div className="content">   
-        <div className='description'>
+        <section className='description'>
           <h2>Dine in the Dark for 1-6 People</h2>
           <h3>We invite you to embark on a journey of sensory awareness while serviced by visually impaired guides.</h3>
           <p>
@@ -19,8 +19,8 @@ class MainContent extends React.Component {
             The Dine in the Dark experience is only recommended for children 12 years of age or older and accompanied by parents.
           </p>
           <div className='voucher'>Voucher Term and Conditions<div className="arrow-down"></div></div>
-        </div>
-        <div className='purchase'>
+        </section>
+        <aside className='purchase'>
           <div> 
             <Cart className="cart"/>
             <span className="basket-title">My basket (0) / Checkout</span>
@@ -37,7 +37,7 @@ class MainContent extends React.Component {
           <div className="btn">
             Add to Basket
           </div>          
-        </div>
+        </aside>
       </div>
     )
   }
