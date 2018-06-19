@@ -24,7 +24,7 @@ class App extends Component {
         <HeadBand/>
         <MainContent/>
         <OtherContent/>
-        <FooterOne/>
+        <FooterOne/> 
        
       </div>
     );

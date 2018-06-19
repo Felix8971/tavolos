@@ -1,4 +1,5 @@
 import React from 'react';
+import Cart from '../../public/images/cart-plus.svg';
 
 class MainContent extends React.Component {
   constructor(props) {
@@ -21,7 +22,7 @@ class MainContent extends React.Component {
         </div>
         <div className='purchase'>
           <div> 
-            <i className="fas fa-cart-plus fa-2x"></i>
+            <Cart className="cart"/>
             <span className="basket-title">My basket (0) / Checkout</span>
           </div>
           <div className="select-person"> 

@@ -1,4 +1,8 @@
 import React from 'react';
+import Bars from '../../public/images/bars.svg';
+import Facebook from '../../public/images/facebook.svg';
+import Twitter from '../../public/images/twitter.svg';
+import Instagram from '../../public/images/instagram.svg';
 
 class NavBarOne extends React.Component {
   constructor(props) {
@@ -14,9 +18,9 @@ class NavBarOne extends React.Component {
   render() {
 
     const socialNetworks = <div className='social-network'>
-      <a href="#"><i className="fab fa-facebook"></i></a>
-      <a href="#"><i className="fab fa-twitter"></i></a>
-      <a href="#"><i className="fab fa-instagram"></i></a>
+      <a href="#"><Facebook className="icon"/></a>
+      <a href="#"><Twitter className="icon"/></a>
+      <a href="#"><Instagram className="icon"/></a>
     </div>
     
     const mainLinks = <div>
@@ -38,10 +42,9 @@ class NavBarOne extends React.Component {
             {socialNetworks}
           </div>
         </div>
-
         <div className="nav-narrow"> 
           <img className='logo' src={'./images/logo.png'} />  
-          <i className="fa fa-bars fa-2x" onClick={this.burgerToggle}></i>
+          <Bars className="bars" onClick={this.burgerToggle}/>
           <div className="narrow-links">
             {mainLinks}
             <div className='button-set'>
