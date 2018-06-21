@@ -6,11 +6,18 @@ class NavBarOne extends React.Component {
   constructor(props) {
     super();
     this.burgerToggle = this.burgerToggle.bind(this);
+    this.state = {
+      height: 0,
+    }
   }
   
+  //When clic the "hamburger" we change the narrow-links's size to show or hide it 
   burgerToggle() {
-    const links = document.querySelector('.narrow-links');
-    links.style.display = (links.style.display == 'block' ? 'none' : 'block');
+    let height = document.querySelector('.narrow-links').style.height;
+    height = (height == '0px' ? '163px' : '0px');
+    this.setState({
+      height,
+    });
   }
  
   render() {
@@ -39,7 +46,7 @@ class NavBarOne extends React.Component {
         <div className="nav-narrow"> 
           {logo}
           <Bars className="bars" onClick={this.burgerToggle}/>
-          <div className="narrow-links">
+          <div className="narrow-links" style={{ height: this.state.height}}>
             {mainLinks}
             <div className='button-set'>
               <a href="#" onClick={this.burgerToggle}>My Tavolos</a>

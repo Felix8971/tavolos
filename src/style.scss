@@ -1,4 +1,9 @@
-$nav-break-point: 815px;
+
+$break-point-1: 520px;
+$break-point-2: 550px;
+$break-point-3: 870px;
+$break-point-4: 1020px;
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +24,7 @@ html {
     .btn{
         background-color: black;
         color:white;
-        width:240px;
+        width:243px;
         padding:10px;
         text-align: center;
         cursor: pointer;
@@ -31,9 +36,9 @@ html {
     .arrow-down {
         width: 0px;
         height: 0px;
-        border-left: 7px solid transparent;
-        border-right: 7px solid transparent;
-        border-top: 11px solid black;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-top: 9px solid black;
         display: inline-block;
         margin-left: 8px;
         margin-top:2px;
@@ -94,11 +99,11 @@ html {
           p {
             font-style: oblique;
           }
-          .voucher{
-            width: 228px;  
+          .voucher{  
+            width: 257px;
             margin-top: 30px;
             font-weight: bold;
-            border-bottom: 1px solid black;
+            text-decoration: underline;
             cursor: pointer;
           } 
         }
@@ -134,6 +139,7 @@ html {
                     font-weight: bold;
                 }
             }
+          
         }
 
         .right-bloc{
@@ -181,7 +187,6 @@ html {
                 .select-person-price{
                     margin-left:-1px;
                 }
- 
             }
         }
     }
@@ -259,7 +264,6 @@ html {
         }
         
         .item-2, .item-3, .item-4 {
-
             display: flex;
             flex-direction: column;
             margin-top: 15px;
@@ -289,36 +293,13 @@ html {
            
         }
     }    
-
 }
 
-@media (max-width: $nav-break-point) {
-    .root-container {
-        .content {
-            grid-template-columns: none;
-        }
-    }
-}
-
-@media (min-width: $nav-break-point) {
-    .root-container {
-        .head-band-group{
-            .title-group{
-                h1{
-                   font-size: 3em;
-                }
-                h2{
-                   font-size: 2em;
-                }
-            }
-        }
-    }
-}
 
 //navbar 1
 .nav-bar-one {
     background-color: black;
-    padding: 0.8em;
+    padding: 0.8em 0.8em 0.5em 0.8em;
     overflow: hidden;
     .social-network {    
       display: flex;
@@ -352,7 +333,7 @@ html {
     .nav-wide {
         display: grid;
         justify-content: space-evenly;
-        grid-template-columns: auto auto auto;//defines the number of columns in the grid layout,
+        grid-template-columns: auto auto auto;
         .menu, .button-set{
             align-content: center;
             display: grid;
@@ -367,11 +348,12 @@ html {
     .nav-narrow{
         display:grid;
         justify-content: space-between;
-        grid-template-columns: auto auto;//defines the number of columns in the grid layout,
+        grid-template-columns: auto auto;
 	
 		.narrow-links {
-            display: none;
+            height:0;
             margin-top: 5px;
+            transition: all 0.3s ease-out;
 			a {
 				text-decoration: none;
 				display: block;
@@ -391,32 +373,6 @@ html {
     }
 }
 
-//Breakpoint to define when the "hamburger" appears
- @media (min-width: $nav-break-point) {
-  .nav-bar-one {
-    .nav-narrow {
-      display: none;
-    }
-  }
-}
-
-@media (max-width: $nav-break-point) {
-    .nav-bar-one {
-        .nav-wide {
-            display: none;
-        }
-        .nav-narrow {
-            display: grid;
-            .bars { margin-top: 6px; }
-            .button-set{
-                flex-direction:column;
-            }
-        }
-    }
-    .delimiter {
-      grid-template-columns: 100%!important;
-    }
-}
 
 //navbar 2
 .nav-bar-two {
@@ -471,7 +427,52 @@ html {
 }
 
 
-@media (max-width: 1020px) {
+@media (min-width: $break-point-3) { 
+   //Breakpoint to define when the "hamburger" appears
+    .nav-bar-one {
+        .nav-narrow {
+            display: none;
+        }
+    }
+    .root-container {
+        .head-band-group{
+            .title-group{
+                h1{
+                   font-size: 3em;
+                }
+                h2{
+                   font-size: 2em;
+                }
+            }
+        }
+    }
+}
+
+  
+@media (max-width: $break-point-3) {
+    .root-container {
+        .content {
+            grid-template-columns: none;
+        }
+    }
+    .nav-bar-one {
+        .nav-wide {
+            display: none;
+        }
+        .nav-narrow {
+            display: grid;
+            .bars { margin-top: 6px; }
+            .button-set{
+                flex-direction:column;
+            }
+        }
+    }
+    .delimiter {
+        grid-template-columns: 100%!important;
+    }
+}
+
+@media (max-width: $break-point-4) {
     .nav-bar-two {
         .nav-wide {
             grid-template-columns:auto;
@@ -485,8 +486,7 @@ html {
     }
 }
 
-
-@media (max-width: 520px) {
+@media (max-width: $break-point-1) {
     .nav-bar-two {
         .nav-wide {
             grid-template-columns:auto;
@@ -522,7 +522,7 @@ html {
 }
 
 
-@media (max-width: 550px) {
+@media (max-width: $break-point-2) {
     .footer-one{
         flex-direction: column!important;
     }
