@@ -26,6 +26,8 @@ class App extends Component {
         <HeadBand/>
         <MainContent/>
 
+        <div className='delimiter'><div className='bar'></div></div>
+
         <aside>
           <OtherContent/>
         </aside>

@@ -10,7 +10,7 @@ class NavBarOne extends React.Component {
   
   burgerToggle() {
     const links = document.querySelector('.narrow-links');
-    links.style.display = links.style.display == 'block' ? 'none' : 'block';
+    links.style.display = (links.style.display == 'block' ? 'none' : 'block');
   }
  
   render() {
@@ -21,6 +21,7 @@ class NavBarOne extends React.Component {
       <a href="#" onClick={this.burgerToggle}>Promotion</a>
       <a href="#" onClick={this.burgerToggle}>All Restaurants</a>
     </div>
+    
     const logo = <img className='logo' src={'./images/logo.png'} alt="Tavalos logo"/>  
 
     return (

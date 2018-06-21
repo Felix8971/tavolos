@@ -1,5 +1,6 @@
 import React from 'react';
 import Cart from '../../public/images/cart-plus.svg';
+import SelectBox from './SelectBox';
 
 class MainContent extends React.Component {
   constructor(props) {
@@ -26,14 +27,14 @@ class MainContent extends React.Component {
             <span className="basket-title">My basket (0) / Checkout</span>
           </div>
           <div className="select-person"> 
-            <div className='select-person-btn'>
+            {/* <div className='select-person-btn'>
               <div className='nb-person'>1 Person</div>
               <div className="arrow-down"></div>
-            </div>
-            <div className='select-person-price'>
-              1,400 THB
-            </div>
+            </div> */}
+            <SelectBox/>
+          
           </div>
+          
           <div className="btn">
             Add to Basket
           </div>          
