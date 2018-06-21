@@ -1,5 +1,7 @@
 # Tavolos
-A static web page for a restaurant
+A static web page for the restaurant Dine in th dark (a code challenge). 
+
+Just click [here](http://felixdebon.com/tavolos) for a live demo
 
 ### Pre-requirements
 - node & npm & yarn installed 
@@ -15,4 +17,5 @@ A static web page for a restaurant
 
 ### tests 
 
-1. rue `yarn test` 
+1. run `yarn test` 
+

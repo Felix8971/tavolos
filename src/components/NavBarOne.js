@@ -14,7 +14,7 @@ class NavBarOne extends React.Component {
   //When clic the "hamburger" we change the narrow-links's size to show or hide it 
   burgerToggle() {
     let height = document.querySelector('.narrow-links').style.height;
-    height = (height == '0px' ? '163px' : '0px');
+    height = (height == '0px' ? '170px' : '0px');
     this.setState({
       height,
     });
