@@ -1,0 +1,407 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OtherContent should render correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <OtherContent />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="description"
+        >
+          <h2>
+            Other Dine in the Dark & Vouchers Offers
+          </h2>
+          <Offer
+            data={
+              Object {
+                "alt": "Dine in the dark logo",
+                "id": 1,
+                "image": "did.png",
+                "price": "1,400 THB",
+                "title": "Dine in the Dark for 1-6 people",
+                "voucher": "Dine int the Dark for 1-6 people (food only)",
+              }
+            }
+          />
+          <Offer
+            data={
+              Object {
+                "alt": "3 glasses of wine",
+                "id": 2,
+                "image": "wineGlasses.png",
+                "price": "2,505 THB",
+                "title": "Dine in the Dark Wine Pairings",
+                "voucher": "Wine pairings (per person)",
+              }
+            }
+          />
+          <Offer
+            data={
+              Object {
+                "alt": "Veuve clicquot wine bottle",
+                "id": 3,
+                "image": "veuveClicquot.png",
+                "price": "4,900 THB",
+                "title": "Veuve Clicquot",
+                "voucher": "Wine pairings (per person)",
+              }
+            }
+          />
+        </div>,
+        <div
+          className="right-bloc"
+        />,
+      ],
+      "className": "content",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              Other Dine in the Dark & Vouchers Offers
+            </h2>,
+            Array [
+              <Offer
+                data={
+                  Object {
+                    "alt": "Dine in the dark logo",
+                    "id": 1,
+                    "image": "did.png",
+                    "price": "1,400 THB",
+                    "title": "Dine in the Dark for 1-6 people",
+                    "voucher": "Dine int the Dark for 1-6 people (food only)",
+                  }
+                }
+              />,
+              <Offer
+                data={
+                  Object {
+                    "alt": "3 glasses of wine",
+                    "id": 2,
+                    "image": "wineGlasses.png",
+                    "price": "2,505 THB",
+                    "title": "Dine in the Dark Wine Pairings",
+                    "voucher": "Wine pairings (per person)",
+                  }
+                }
+              />,
+              <Offer
+                data={
+                  Object {
+                    "alt": "Veuve clicquot wine bottle",
+                    "id": 3,
+                    "image": "veuveClicquot.png",
+                    "price": "4,900 THB",
+                    "title": "Veuve Clicquot",
+                    "voucher": "Wine pairings (per person)",
+                  }
+                }
+              />,
+            ],
+          ],
+          "className": "description",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Other Dine in the Dark & Vouchers Offers",
+            },
+            "ref": null,
+            "rendered": "Other Dine in the Dark & Vouchers Offers",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "class",
+            "props": Object {
+              "data": Object {
+                "alt": "Dine in the dark logo",
+                "id": 1,
+                "image": "did.png",
+                "price": "1,400 THB",
+                "title": "Dine in the Dark for 1-6 people",
+                "voucher": "Dine int the Dark for 1-6 people (food only)",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "class",
+            "props": Object {
+              "data": Object {
+                "alt": "3 glasses of wine",
+                "id": 2,
+                "image": "wineGlasses.png",
+                "price": "2,505 THB",
+                "title": "Dine in the Dark Wine Pairings",
+                "voucher": "Wine pairings (per person)",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "class",
+            "props": Object {
+              "data": Object {
+                "alt": "Veuve clicquot wine bottle",
+                "id": 3,
+                "image": "veuveClicquot.png",
+                "price": "4,900 THB",
+                "title": "Veuve Clicquot",
+                "voucher": "Wine pairings (per person)",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "right-bloc",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="description"
+          >
+            <h2>
+              Other Dine in the Dark & Vouchers Offers
+            </h2>
+            <Offer
+              data={
+                Object {
+                  "alt": "Dine in the dark logo",
+                  "id": 1,
+                  "image": "did.png",
+                  "price": "1,400 THB",
+                  "title": "Dine in the Dark for 1-6 people",
+                  "voucher": "Dine int the Dark for 1-6 people (food only)",
+                }
+              }
+            />
+            <Offer
+              data={
+                Object {
+                  "alt": "3 glasses of wine",
+                  "id": 2,
+                  "image": "wineGlasses.png",
+                  "price": "2,505 THB",
+                  "title": "Dine in the Dark Wine Pairings",
+                  "voucher": "Wine pairings (per person)",
+                }
+              }
+            />
+            <Offer
+              data={
+                Object {
+                  "alt": "Veuve clicquot wine bottle",
+                  "id": 3,
+                  "image": "veuveClicquot.png",
+                  "price": "4,900 THB",
+                  "title": "Veuve Clicquot",
+                  "voucher": "Wine pairings (per person)",
+                }
+              }
+            />
+          </div>,
+          <div
+            className="right-bloc"
+          />,
+        ],
+        "className": "content",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                Other Dine in the Dark & Vouchers Offers
+              </h2>,
+              Array [
+                <Offer
+                  data={
+                    Object {
+                      "alt": "Dine in the dark logo",
+                      "id": 1,
+                      "image": "did.png",
+                      "price": "1,400 THB",
+                      "title": "Dine in the Dark for 1-6 people",
+                      "voucher": "Dine int the Dark for 1-6 people (food only)",
+                    }
+                  }
+                />,
+                <Offer
+                  data={
+                    Object {
+                      "alt": "3 glasses of wine",
+                      "id": 2,
+                      "image": "wineGlasses.png",
+                      "price": "2,505 THB",
+                      "title": "Dine in the Dark Wine Pairings",
+                      "voucher": "Wine pairings (per person)",
+                    }
+                  }
+                />,
+                <Offer
+                  data={
+                    Object {
+                      "alt": "Veuve clicquot wine bottle",
+                      "id": 3,
+                      "image": "veuveClicquot.png",
+                      "price": "4,900 THB",
+                      "title": "Veuve Clicquot",
+                      "voucher": "Wine pairings (per person)",
+                    }
+                  }
+                />,
+              ],
+            ],
+            "className": "description",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Other Dine in the Dark & Vouchers Offers",
+              },
+              "ref": null,
+              "rendered": "Other Dine in the Dark & Vouchers Offers",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "class",
+              "props": Object {
+                "data": Object {
+                  "alt": "Dine in the dark logo",
+                  "id": 1,
+                  "image": "did.png",
+                  "price": "1,400 THB",
+                  "title": "Dine in the Dark for 1-6 people",
+                  "voucher": "Dine int the Dark for 1-6 people (food only)",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "class",
+              "props": Object {
+                "data": Object {
+                  "alt": "3 glasses of wine",
+                  "id": 2,
+                  "image": "wineGlasses.png",
+                  "price": "2,505 THB",
+                  "title": "Dine in the Dark Wine Pairings",
+                  "voucher": "Wine pairings (per person)",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "class",
+              "props": Object {
+                "data": Object {
+                  "alt": "Veuve clicquot wine bottle",
+                  "id": 3,
+                  "image": "veuveClicquot.png",
+                  "price": "4,900 THB",
+                  "title": "Veuve Clicquot",
+                  "voucher": "Wine pairings (per person)",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "right-bloc",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

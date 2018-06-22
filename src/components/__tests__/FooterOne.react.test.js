@@ -1,28 +1,28 @@
 import React from 'react';
 import { shallow, mount, render } from 'enzyme';
-import NavBar from '../NavBarOne';
+import FooterOne from '../FooterOne';
 import * as enzyme from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 enzyme.configure({ adapter: new Adapter() });
 
-describe('NavBarOne', () => {
+describe('FooterOne', () => {
 
     it('should be defined', () => {
-      expect(NavBarOne).toBeDefined();
+      expect(FooterOne).toBeDefined();
     });
 
     it('should render correctly', () => {
       const tree = shallow(
-        <NavBarOne/>
+        <FooterOne/>
       );
       expect(tree).toMatchSnapshot();
     });
 
-    it('should contain 6 link', () => {
+    it('should contain 2 input', () => {
       const tree = shallow(
-        <NavBarOne/>
+        <FooterOne/>
       );
-      expect(tree.find('a')).toHaveLength(6);
+      expect(tree.find('input')).toHaveLength(2);
     })
 
 });

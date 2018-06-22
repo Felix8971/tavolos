@@ -1,0 +1,445 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectBox should render correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SelectBox />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <select
+          className="form-control"
+          onChange={[Function]}
+          value="1 Person"
+        >
+          <option
+            className="option"
+            value="1 Person"
+          >
+            1 Person
+          </option>
+          <option
+            className="option"
+            value="2 Persons"
+          >
+            2 Persons
+          </option>
+          <option
+            className="option"
+            value="3 Persons"
+          >
+            3 Persons
+          </option>
+          <option
+            className="option"
+            value="4 Persons"
+          >
+            4 Persons
+          </option>
+          <option
+            className="option"
+            value="5 Persons"
+          >
+            5 Persons
+          </option>
+          <option
+            className="option"
+            value="6 Persons"
+          >
+            6 Persons
+          </option>
+        </select>,
+        <div
+          className="select-person-price"
+        >
+          1400
+           THB
+        </div>,
+      ],
+      "className": "form-group",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <option
+              className="option"
+              value="1 Person"
+            >
+              1 Person
+            </option>,
+            <option
+              className="option"
+              value="2 Persons"
+            >
+              2 Persons
+            </option>,
+            <option
+              className="option"
+              value="3 Persons"
+            >
+              3 Persons
+            </option>,
+            <option
+              className="option"
+              value="4 Persons"
+            >
+              4 Persons
+            </option>,
+            <option
+              className="option"
+              value="5 Persons"
+            >
+              5 Persons
+            </option>,
+            <option
+              className="option"
+              value="6 Persons"
+            >
+              6 Persons
+            </option>,
+          ],
+          "className": "form-control",
+          "onChange": [Function],
+          "value": "1 Person",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1 Person",
+            "nodeType": "host",
+            "props": Object {
+              "children": "1 Person",
+              "className": "option",
+              "value": "1 Person",
+            },
+            "ref": null,
+            "rendered": "1 Person",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "2 Persons",
+            "nodeType": "host",
+            "props": Object {
+              "children": "2 Persons",
+              "className": "option",
+              "value": "2 Persons",
+            },
+            "ref": null,
+            "rendered": "2 Persons",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "3 Persons",
+            "nodeType": "host",
+            "props": Object {
+              "children": "3 Persons",
+              "className": "option",
+              "value": "3 Persons",
+            },
+            "ref": null,
+            "rendered": "3 Persons",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "4 Persons",
+            "nodeType": "host",
+            "props": Object {
+              "children": "4 Persons",
+              "className": "option",
+              "value": "4 Persons",
+            },
+            "ref": null,
+            "rendered": "4 Persons",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "5 Persons",
+            "nodeType": "host",
+            "props": Object {
+              "children": "5 Persons",
+              "className": "option",
+              "value": "5 Persons",
+            },
+            "ref": null,
+            "rendered": "5 Persons",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "6 Persons",
+            "nodeType": "host",
+            "props": Object {
+              "children": "6 Persons",
+              "className": "option",
+              "value": "6 Persons",
+            },
+            "ref": null,
+            "rendered": "6 Persons",
+            "type": "option",
+          },
+        ],
+        "type": "select",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            1400,
+            " THB",
+          ],
+          "className": "select-person-price",
+        },
+        "ref": null,
+        "rendered": Array [
+          1400,
+          " THB",
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <select
+            className="form-control"
+            onChange={[Function]}
+            value="1 Person"
+          >
+            <option
+              className="option"
+              value="1 Person"
+            >
+              1 Person
+            </option>
+            <option
+              className="option"
+              value="2 Persons"
+            >
+              2 Persons
+            </option>
+            <option
+              className="option"
+              value="3 Persons"
+            >
+              3 Persons
+            </option>
+            <option
+              className="option"
+              value="4 Persons"
+            >
+              4 Persons
+            </option>
+            <option
+              className="option"
+              value="5 Persons"
+            >
+              5 Persons
+            </option>
+            <option
+              className="option"
+              value="6 Persons"
+            >
+              6 Persons
+            </option>
+          </select>,
+          <div
+            className="select-person-price"
+          >
+            1400
+             THB
+          </div>,
+        ],
+        "className": "form-group",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <option
+                className="option"
+                value="1 Person"
+              >
+                1 Person
+              </option>,
+              <option
+                className="option"
+                value="2 Persons"
+              >
+                2 Persons
+              </option>,
+              <option
+                className="option"
+                value="3 Persons"
+              >
+                3 Persons
+              </option>,
+              <option
+                className="option"
+                value="4 Persons"
+              >
+                4 Persons
+              </option>,
+              <option
+                className="option"
+                value="5 Persons"
+              >
+                5 Persons
+              </option>,
+              <option
+                className="option"
+                value="6 Persons"
+              >
+                6 Persons
+              </option>,
+            ],
+            "className": "form-control",
+            "onChange": [Function],
+            "value": "1 Person",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1 Person",
+              "nodeType": "host",
+              "props": Object {
+                "children": "1 Person",
+                "className": "option",
+                "value": "1 Person",
+              },
+              "ref": null,
+              "rendered": "1 Person",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "2 Persons",
+              "nodeType": "host",
+              "props": Object {
+                "children": "2 Persons",
+                "className": "option",
+                "value": "2 Persons",
+              },
+              "ref": null,
+              "rendered": "2 Persons",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "3 Persons",
+              "nodeType": "host",
+              "props": Object {
+                "children": "3 Persons",
+                "className": "option",
+                "value": "3 Persons",
+              },
+              "ref": null,
+              "rendered": "3 Persons",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "4 Persons",
+              "nodeType": "host",
+              "props": Object {
+                "children": "4 Persons",
+                "className": "option",
+                "value": "4 Persons",
+              },
+              "ref": null,
+              "rendered": "4 Persons",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "5 Persons",
+              "nodeType": "host",
+              "props": Object {
+                "children": "5 Persons",
+                "className": "option",
+                "value": "5 Persons",
+              },
+              "ref": null,
+              "rendered": "5 Persons",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "6 Persons",
+              "nodeType": "host",
+              "props": Object {
+                "children": "6 Persons",
+                "className": "option",
+                "value": "6 Persons",
+              },
+              "ref": null,
+              "rendered": "6 Persons",
+              "type": "option",
+            },
+          ],
+          "type": "select",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              1400,
+              " THB",
+            ],
+            "className": "select-person-price",
+          },
+          "ref": null,
+          "rendered": Array [
+            1400,
+            " THB",
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

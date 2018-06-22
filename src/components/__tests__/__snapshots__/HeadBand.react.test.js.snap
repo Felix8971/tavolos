@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeadBand should render correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <HeadBand />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <img
+          alt="a fish dish"
+          className="head-band"
+          src="./images/nox_fish.jpg"
+        />,
+        <div
+          className="title-group"
+        >
+          <h1>
+            Dine in the dark
+          </h1>
+          <h2>
+            For the adventurous, looking to challenge your senses.
+          </h2>
+        </div>,
+      ],
+      "className": "head-band-group",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "a fish dish",
+          "className": "head-band",
+          "src": "./images/nox_fish.jpg",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1>
+              Dine in the dark
+            </h1>,
+            <h2>
+              For the adventurous, looking to challenge your senses.
+            </h2>,
+          ],
+          "className": "title-group",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Dine in the dark",
+            },
+            "ref": null,
+            "rendered": "Dine in the dark",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "For the adventurous, looking to challenge your senses.",
+            },
+            "ref": null,
+            "rendered": "For the adventurous, looking to challenge your senses.",
+            "type": "h2",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            alt="a fish dish"
+            className="head-band"
+            src="./images/nox_fish.jpg"
+          />,
+          <div
+            className="title-group"
+          >
+            <h1>
+              Dine in the dark
+            </h1>
+            <h2>
+              For the adventurous, looking to challenge your senses.
+            </h2>
+          </div>,
+        ],
+        "className": "head-band-group",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "a fish dish",
+            "className": "head-band",
+            "src": "./images/nox_fish.jpg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1>
+                Dine in the dark
+              </h1>,
+              <h2>
+                For the adventurous, looking to challenge your senses.
+              </h2>,
+            ],
+            "className": "title-group",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Dine in the dark",
+              },
+              "ref": null,
+              "rendered": "Dine in the dark",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "For the adventurous, looking to challenge your senses.",
+              },
+              "ref": null,
+              "rendered": "For the adventurous, looking to challenge your senses.",
+              "type": "h2",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

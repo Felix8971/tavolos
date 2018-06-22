@@ -27,14 +27,8 @@ class MainContent extends React.Component {
             <span className="basket-title">My basket (0) / Checkout</span>
           </div>
           <div className="select-person"> 
-            {/* <div className='select-person-btn'>
-              <div className='nb-person'>1 Person</div>
-              <div className="arrow-down"></div>
-            </div> */}
             <SelectBox/>
-          
           </div>
-          
           <div className="btn">
             Add to Basket
           </div>          

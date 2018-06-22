@@ -1,0 +1,871 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterTwo should render correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FooterTwo />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <a
+          className="item-1"
+          href="#"
+        >
+          <img
+            alt="Tavalos logo"
+            className="logo"
+            src="./images/logo.png"
+          />
+        </a>,
+        <div
+          className="item-2"
+        >
+          <h3>
+            Tavolos
+          </h3>
+          <a
+            href="#"
+          >
+            About us
+          </a>
+          <a
+            href="#"
+          >
+            Blog
+          </a>
+          <a
+            href="#"
+          >
+            Press
+          </a>
+          <a
+            href="#"
+          >
+            Privacy Policy
+          </a>
+          <a
+            href="#"
+          >
+            Terms & Conditions
+          </a>
+        </div>,
+        <div
+          className="item-3"
+        >
+          <h3>
+            More
+          </h3>
+          <a
+            href="#"
+          >
+            Partners
+          </a>
+          <a
+            href="#"
+          >
+            Help & Support
+          </a>
+          <a
+            href="#"
+          >
+            Contact Us
+          </a>
+        </div>,
+        <div
+          className="item-4"
+        >
+          <h3>
+            Restaurants
+          </h3>
+          <a
+            href="#"
+          >
+            Find out more
+          </a>
+          <a
+            href="#"
+          >
+            Restaurants FAQs
+          </a>
+          <button>
+            Register now
+          </button>
+        </div>,
+        <p
+          className="item-5"
+        >
+          Copyright © 2018 Tavalos Ltd - All rights reserved.
+        </p>,
+      ],
+      "className": "footer-two",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <img
+            alt="Tavalos logo"
+            className="logo"
+            src="./images/logo.png"
+          />,
+          "className": "item-1",
+          "href": "#",
+          "onClick": undefined,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "Tavalos logo",
+            "className": "logo",
+            "src": "./images/logo.png",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        "type": "a",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3>
+              Tavolos
+            </h3>,
+            <a
+              href="#"
+            >
+              About us
+            </a>,
+            <a
+              href="#"
+            >
+              Blog
+            </a>,
+            <a
+              href="#"
+            >
+              Press
+            </a>,
+            <a
+              href="#"
+            >
+              Privacy Policy
+            </a>,
+            <a
+              href="#"
+            >
+              Terms & Conditions
+            </a>,
+          ],
+          "className": "item-2",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Tavolos",
+            },
+            "ref": null,
+            "rendered": "Tavolos",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "About us",
+              "href": "#",
+              "onClick": undefined,
+            },
+            "ref": null,
+            "rendered": "About us",
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Blog",
+              "href": "#",
+              "onClick": undefined,
+            },
+            "ref": null,
+            "rendered": "Blog",
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Press",
+              "href": "#",
+              "onClick": undefined,
+            },
+            "ref": null,
+            "rendered": "Press",
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Privacy Policy",
+              "href": "#",
+              "onClick": undefined,
+            },
+            "ref": null,
+            "rendered": "Privacy Policy",
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Terms & Conditions",
+              "href": "#",
+              "onClick": undefined,
+            },
+            "ref": null,
+            "rendered": "Terms & Conditions",
+            "type": "a",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3>
+              More
+            </h3>,
+            <a
+              href="#"
+            >
+              Partners
+            </a>,
+            <a
+              href="#"
+            >
+              Help & Support
+            </a>,
+            <a
+              href="#"
+            >
+              Contact Us
+            </a>,
+          ],
+          "className": "item-3",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "More",
+            },
+            "ref": null,
+            "rendered": "More",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Partners",
+              "href": "#",
+              "onClick": undefined,
+            },
+            "ref": null,
+            "rendered": "Partners",
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Help & Support",
+              "href": "#",
+              "onClick": undefined,
+            },
+            "ref": null,
+            "rendered": "Help & Support",
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Contact Us",
+              "href": "#",
+              "onClick": undefined,
+            },
+            "ref": null,
+            "rendered": "Contact Us",
+            "type": "a",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3>
+              Restaurants
+            </h3>,
+            <a
+              href="#"
+            >
+              Find out more
+            </a>,
+            <a
+              href="#"
+            >
+              Restaurants FAQs
+            </a>,
+            <button>
+              Register now
+            </button>,
+          ],
+          "className": "item-4",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Restaurants",
+            },
+            "ref": null,
+            "rendered": "Restaurants",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Find out more",
+              "href": "#",
+              "onClick": undefined,
+            },
+            "ref": null,
+            "rendered": "Find out more",
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Restaurants FAQs",
+              "href": "#",
+              "onClick": undefined,
+            },
+            "ref": null,
+            "rendered": "Restaurants FAQs",
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Register now",
+            },
+            "ref": null,
+            "rendered": "Register now",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Copyright © 2018 Tavalos Ltd - All rights reserved.",
+          "className": "item-5",
+        },
+        "ref": null,
+        "rendered": "Copyright © 2018 Tavalos Ltd - All rights reserved.",
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <a
+            className="item-1"
+            href="#"
+          >
+            <img
+              alt="Tavalos logo"
+              className="logo"
+              src="./images/logo.png"
+            />
+          </a>,
+          <div
+            className="item-2"
+          >
+            <h3>
+              Tavolos
+            </h3>
+            <a
+              href="#"
+            >
+              About us
+            </a>
+            <a
+              href="#"
+            >
+              Blog
+            </a>
+            <a
+              href="#"
+            >
+              Press
+            </a>
+            <a
+              href="#"
+            >
+              Privacy Policy
+            </a>
+            <a
+              href="#"
+            >
+              Terms & Conditions
+            </a>
+          </div>,
+          <div
+            className="item-3"
+          >
+            <h3>
+              More
+            </h3>
+            <a
+              href="#"
+            >
+              Partners
+            </a>
+            <a
+              href="#"
+            >
+              Help & Support
+            </a>
+            <a
+              href="#"
+            >
+              Contact Us
+            </a>
+          </div>,
+          <div
+            className="item-4"
+          >
+            <h3>
+              Restaurants
+            </h3>
+            <a
+              href="#"
+            >
+              Find out more
+            </a>
+            <a
+              href="#"
+            >
+              Restaurants FAQs
+            </a>
+            <button>
+              Register now
+            </button>
+          </div>,
+          <p
+            className="item-5"
+          >
+            Copyright © 2018 Tavalos Ltd - All rights reserved.
+          </p>,
+        ],
+        "className": "footer-two",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              alt="Tavalos logo"
+              className="logo"
+              src="./images/logo.png"
+            />,
+            "className": "item-1",
+            "href": "#",
+            "onClick": undefined,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "Tavalos logo",
+              "className": "logo",
+              "src": "./images/logo.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "a",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3>
+                Tavolos
+              </h3>,
+              <a
+                href="#"
+              >
+                About us
+              </a>,
+              <a
+                href="#"
+              >
+                Blog
+              </a>,
+              <a
+                href="#"
+              >
+                Press
+              </a>,
+              <a
+                href="#"
+              >
+                Privacy Policy
+              </a>,
+              <a
+                href="#"
+              >
+                Terms & Conditions
+              </a>,
+            ],
+            "className": "item-2",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Tavolos",
+              },
+              "ref": null,
+              "rendered": "Tavolos",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "About us",
+                "href": "#",
+                "onClick": undefined,
+              },
+              "ref": null,
+              "rendered": "About us",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Blog",
+                "href": "#",
+                "onClick": undefined,
+              },
+              "ref": null,
+              "rendered": "Blog",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Press",
+                "href": "#",
+                "onClick": undefined,
+              },
+              "ref": null,
+              "rendered": "Press",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Privacy Policy",
+                "href": "#",
+                "onClick": undefined,
+              },
+              "ref": null,
+              "rendered": "Privacy Policy",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Terms & Conditions",
+                "href": "#",
+                "onClick": undefined,
+              },
+              "ref": null,
+              "rendered": "Terms & Conditions",
+              "type": "a",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3>
+                More
+              </h3>,
+              <a
+                href="#"
+              >
+                Partners
+              </a>,
+              <a
+                href="#"
+              >
+                Help & Support
+              </a>,
+              <a
+                href="#"
+              >
+                Contact Us
+              </a>,
+            ],
+            "className": "item-3",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "More",
+              },
+              "ref": null,
+              "rendered": "More",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Partners",
+                "href": "#",
+                "onClick": undefined,
+              },
+              "ref": null,
+              "rendered": "Partners",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Help & Support",
+                "href": "#",
+                "onClick": undefined,
+              },
+              "ref": null,
+              "rendered": "Help & Support",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Contact Us",
+                "href": "#",
+                "onClick": undefined,
+              },
+              "ref": null,
+              "rendered": "Contact Us",
+              "type": "a",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3>
+                Restaurants
+              </h3>,
+              <a
+                href="#"
+              >
+                Find out more
+              </a>,
+              <a
+                href="#"
+              >
+                Restaurants FAQs
+              </a>,
+              <button>
+                Register now
+              </button>,
+            ],
+            "className": "item-4",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Restaurants",
+              },
+              "ref": null,
+              "rendered": "Restaurants",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Find out more",
+                "href": "#",
+                "onClick": undefined,
+              },
+              "ref": null,
+              "rendered": "Find out more",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Restaurants FAQs",
+                "href": "#",
+                "onClick": undefined,
+              },
+              "ref": null,
+              "rendered": "Restaurants FAQs",
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Register now",
+              },
+              "ref": null,
+              "rendered": "Register now",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Copyright © 2018 Tavalos Ltd - All rights reserved.",
+            "className": "item-5",
+          },
+          "ref": null,
+          "rendered": "Copyright © 2018 Tavalos Ltd - All rights reserved.",
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
