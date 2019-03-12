@@ -9,8 +9,8 @@ Just click [here](http://felixdebon.com/tavolos) for a live demo
 
 ### To get started
 
-1. `git clone https://github.com/Felix8971/movie-ticket-reservation.git`
-1. `cd movie-ticket-reservation` 
+1. `git clone https://github.com/Felix8971/tavolos.git`
+1. `cd tavolos` 
 2. run `yarn install` (nodejs packages installation)
 3. run `yarn client` in another terminal to launch webpack-dev-server (http://localhost:3000)
 5. visit <http://localhost:3000/> 
